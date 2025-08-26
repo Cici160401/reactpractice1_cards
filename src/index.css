@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+/* Light mode */
+body.light {
+  background-color: #fce4ec; /* fondo rosita */
+  color: #333;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #121212; /* fondo oscuro */
+  color: #f5f5f5;
+}
+
+/* Claro */
+.light {
+  background-color: #fce4ec; /* fondo rosita */
+  color: #333;
+  min-height: 100vh; /* ocupa toda la altura de la pantalla */
+  width: 100%;       /* ocupa todo el ancho */
+}
+
+/* Oscuro */
+.dark {
+  background-color: #282828; /* casi negro */
+  color: #f5f5f5;
+  min-height: 100vh; /* ocupa toda la altura de la pantalla */
+  width: 100%;       /* ocupa todo el ancho */
+}
+
+/* Botón */
+.toggle-btn {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #f08ebf;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff69b4;
+}

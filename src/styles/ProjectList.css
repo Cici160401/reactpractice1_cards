@@ -1,0 +1,10 @@
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+  justify-items: center; /* centra cada card en su celda */
+  max-width: 1100px;     /* ancho máximo del contenedor */
+  margin: 0 auto;        /* centra el grid en la página */
+  padding: 1rem 0;
+}

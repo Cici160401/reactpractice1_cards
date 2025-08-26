@@ -1,0 +1,17 @@
+.light .header h1 {
+  color: #d81b60;   /* rosa oscuro elegante */
+}
+
+.light .header p {
+  color: #7f8c8d;   /* gris suave */
+}
+
+/* --- Modo oscuro --- */
+.dark .header h1 {
+  color: #ffffff;   /* rosa vibrante */
+  text-shadow: 0 0 8px rgba(250, 250, 250, 0.7); /* glow opcional */
+}
+
+.dark .header p {
+  color: #aaa;      /* gris claro */
+}
